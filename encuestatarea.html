@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <title>Encuesta de Tarea</title>
+</head>
+<body>
+    <h1>Formulario de Encuesta GeeksforGeeks</h1>
+    <form action="" class="encuesta">
+        <!--Formularios "text"-->
+        <p><label for="nombre">Nombre</label></p>
+        <input autocomplete="off" type="text" id="nombre" name="nombre" placeholder="Ingresa tu Nombre" class="edit"><br><br>
+
+        <p><label for="correo">Correo</label></p>
+        <input type="text" id="correo" name="correo" placeholder="Ingresa tu correo" class="edit"><br><br>
+
+        <p><label for="edad">Edad</label></p>
+        <input type="text" id="edad" name="edad" placeholder="Ingresa tu edad" class="edit"><br><br>
+        <!---->
+
+        <!--Formulario de Selección-->
+        <p><label for="seleccion">¿Qué opción te describe mejor?</label></p>
+        <select name="seleccion" id="seleccion" class="edit">
+            <option value="estudiante">Estudiante</option>
+            <option value="docente">Docente</option>
+            <option value="otro">Otro</option>
+            <!--Ver si le puedo poner más opciones-->
+        </select>
+        <!---->
+
+        <!--Formulario 1 elección-->
+        <p>¿Recomendarías GeeksforGeeks a un amigo(a)?</p>
+        <input type="radio" id="si" name="opcion" value="si">
+        <label for="si">Si</label><br>
+
+        <input type="radio" id="no" name="opcion" value="no">
+        <label for="no">No</label><br>
+
+        <input type="radio" id="quizas" name="opcion" value="quizas">
+        <label for="quizas">Quizás</label><br>
+        <!---->
+
+        <!--Formularios múltiple elección-->
+        <p>Lenguajes y Frameworks que conoces <span class="">(Marque todos los que correspondan)</span></p>
+        <input type="checkbox" id="c" name="c" value="c">
+        <label for="c">C</label><br>
+
+        <input type="checkbox" id="cmas" name="cmas" value="cmas">
+        <label for="cmas">C++</label><br>
+
+        <input type="checkbox" id="cmichi" name="cmichi" value="cmichi">
+        <label for="cmichi">C#</label><br>
+
+        <input type="checkbox" id="java" name="java" value="java">
+        <label for="java">Java</label><br>
+
+        <input type="checkbox" id="python" name="pyhton" value="python">
+        <label for="python">Python</label><br>
+
+        <input type="checkbox" id="js" name="js" value="js">
+        <label for="js">JavaScript</label><br>
+
+        <input type="checkbox" id="react" name="react" value="react">
+        <label for="react">React</label><br>
+
+        <input type="checkbox" id="angular" name="angular" value="angular">
+        <label for="angular">Angular</label><br>
+
+        <input type="checkbox" id="django" name="django" value="django">
+        <label for="django">Django</label><br>
+
+        <input type="checkbox" id="spring" name="spring" value="spring">
+        <label for="spring">Spring</label><br>
+        <!---->
+
+        <!--Comentarios-->
+        <p><label for="areatxt">Cualquier comentario o sugerencia</label></p>
+        <textarea name="areatxt" id="areatxt" cols="30" rows="10" class="coment"></textarea>
+        <br>
+        <br>
+        <br>
+        <!---->
+
+        <!--Submit-->
+        <input type="submit" value="Enviar" class="button">
+        <!---->
+    </form>
+</body>
+</html>

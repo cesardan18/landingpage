@@ -1,0 +1,99 @@
+/*Profe en los input use la página de diseños que enseño en una clase para darles diseños atractivos y así practicar*/
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 23px;
+    color: whitesmoke;
+    background-color: #171717;
+    margin: 45px 0px;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.especial {
+    font-size: 18px;
+}
+
+
+/*Estilos para form*/
+.encuesta {
+    background-color: #202020;
+    border-radius: 5px;
+    margin: auto;
+    padding: 25px 40px;
+    width:600px;
+}
+
+input, textarea, select {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    color: white;
+    outline: none;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #202020;
+}
+/*...*/
+
+
+/*Efecto de hover para los input txt*/
+.edit {
+    width: 565px;
+    height: 45px;
+    background-color: #171717;
+    border-radius: .5rem;
+    padding: 0 1rem;
+    border: 2px solid transparent;
+    font-size: 1rem;
+    transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+}
+
+.edit:hover, .edit:focus, .edit-group:hover .edit {
+    outline: none;
+    border-color: white;
+}
+  
+.edit-group:hover, .edit:focus {
+    color: #757575;
+}
+/*...*/
+
+
+/*Efecto de hover para textarea*/
+.coment {
+    width: 575px;
+    height: 80px;
+    background-color: #171717;
+    border-radius: .5rem;
+    padding: 10 1rem;
+    border: 2px solid transparent;
+    font-size: 1rem;
+    transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+}
+
+.coment:hover, .coment:focus, .coment-group:hover .edit {
+    outline: none;
+    border-color: white;
+}
+  
+.coment-group:hover, .coment:focus {
+    color: #757575;
+}
+/*...*/
+
+
+/*Estilos para Submit*/
+.button {
+    width: 600px;
+    height: 40px;
+    font-size: 25px;
+    padding: 0;
+    color: #202020;
+    background-color: white;
+}
+/*...*/
