@@ -1,0 +1,57 @@
+/*Hice otro CSS para manejarlo más comodamente*/
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(197, 224, 247);
+    margin: 0;
+    padding: 5px 30px;
+}
+
+
+.wrapper {
+    display: flex;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+input {
+    width: 490px;
+    height: 23px;
+    padding: 10px;
+}
+
+select {
+    width: 515px;
+    height: 45px;
+    padding: 10px;
+}
+
+.btn {
+    width: 515px;
+    height: 45px;
+    background-color: rgb(49, 138, 228);
+    color: white;
+    font-size: 20px;
+    border: 0;
+}
+
+input, select {
+    border: solid 2px ;
+    border-color: black;
+    border-radius:  5px;
+    font-size: 15px;
+    
+}
+
+.boceto {
+    border-radius: 50px;
+    width: 450px;
+    height: 425px;
+    margin: 0px 182px;
+    
+}
