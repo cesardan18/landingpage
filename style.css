@@ -1,9 +1,11 @@
 /*CSS PARA EL EJERCICIO EN CLASE*/
 /*Hice otro CSS para manejarlo más comodamente*/
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 5px 30px;
+    
     /*Al final me dice por un color en vez de una imagen*/
     background-color: #14171A;
     color: white;
@@ -22,6 +24,7 @@ p {
     font-size: 20px;
 }
 
+/*CSS para los cuadros de form*/
 input, select {
     background-color: #657786;
     border: solid transparent 2px;
@@ -49,7 +52,10 @@ select {
     font-size: 20px;
     border: 0;
 }
+/* */
 
+
+/*Características para cuadros de form*/
 ::placeholder {
     color: rgb(212, 212, 212);
 }
@@ -59,10 +65,14 @@ select {
     background: #54FFE7;
     box-shadow: 0px 0px 10px 0px rgba(196, 193, 193, 0.5);
 }
+/* */
 
+
+/*CSS para imágenes (movi la imagen con margin)*/
 .boceto {
     border-radius: 50px;
     width: 450px;
     height: 425px;
     margin: 0px 182px; 
 }
+/* */
