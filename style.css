@@ -24,8 +24,7 @@ p {
 
 input, select {
     background-color: #657786;
-    border-color: white;
-    border: solid 2px;
+    border: solid transparent 2px;
     border-radius: 5px;
     font-size: 15px;
     color: white;
